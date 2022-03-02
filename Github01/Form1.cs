@@ -34,5 +34,14 @@ namespace Github01
             vysledek = a - b;
             MessageBox.Show("Součet dvou čísel: " + vysledek);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+            int vysledek = 0;
+            vysledek = a * b;
+            MessageBox.Show("Součet dvou čísel: " + vysledek);
+        }
     }
 }
